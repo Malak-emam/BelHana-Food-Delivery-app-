@@ -1,8 +1,9 @@
+package org.example;
+
 public class PaymentContext {
     private PaymentStrategy strategy;
 
-    public PaymentContext(PaymentStrategy strategy){
-        this.strategy = strategy;
+    public PaymentContext(){
     }
 
     public void setStrategy(PaymentStrategy strategy){
