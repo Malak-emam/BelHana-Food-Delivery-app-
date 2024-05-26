@@ -31,10 +31,10 @@ public class Menu {
     public Category categoryID;
 
     /**
-     * @param FoodItem itemID
+     * @param itemID
      * @param menuID
      */
-    public void AddItem(FoodItem itemID, int menuID) {
+    public void AddItem(Item itemID, int menuID) {
         // TODO implement here
     }
 
@@ -46,7 +46,7 @@ public class Menu {
     }
 
     /**
-     * @param string itemId
+     * @param itemId
      */
     public void RemoveItem(int itemId) {
         // TODO implement here
