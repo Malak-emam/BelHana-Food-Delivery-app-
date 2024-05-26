@@ -20,7 +20,7 @@ public class Category {
     public int menuID;
 
     /**
-     * @param Menu menu
+     * @param menu menu
      * @return
      */
     public boolean AddMenu(Menu menu) {
@@ -29,7 +29,7 @@ public class Category {
     }
 
     /**
-     * @param Menu menu
+     * @param menu menu
      * @return
      */
     public boolean RemoveMenu(Menu menu) {
