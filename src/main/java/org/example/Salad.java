@@ -1,26 +1,15 @@
-package org.example;
+public class Salad implements Appetizer {
+    private String name;
 
-public class Salad {
-    public Salad() {
+    public Salad(String name) {
+        this.name = name;
     }
 
-    /**
-     *
-     */
-    private String SAName;
-
-    /**
-     *
-     */
-    public void Salad() {
-        // TODO implement here
+    public String getAppetizerName() {
+        return name;
     }
 
-    /**
-     * @return
-     */
-    public String getSaladName() {
-        // TODO implement here
-        return "";
+    public void display() {
+        System.out.println("Salad: " + name);
     }
 }

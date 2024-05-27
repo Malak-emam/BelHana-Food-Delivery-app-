@@ -1,26 +1,16 @@
-package org.example;
 
-public class Veggies {
-    public Veggies() {
+public class Veggies implements MainCourse {
+    private String name;
+
+    public Veggies(String name) {
+        this.name = name;
     }
 
-    /**
-     *
-     */
-    private String VName;
-
-    /**
-     *
-     */
-    public void Veggies() {
-        // TODO implement here
+    public String getMainCourseName() {
+        return name;
     }
 
-    /**
-     * @return
-     */
-    public String getVeggieName() {
-        // TODO implement here
-        return "";
+    public void display() {
+        System.out.println("Veggies: " + name);
     }
 }

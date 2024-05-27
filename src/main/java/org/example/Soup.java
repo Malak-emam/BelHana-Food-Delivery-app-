@@ -1,26 +1,16 @@
-package org.example;
+// Soup class implementing Appetizer
+public class Soup implements Appetizer {
+    private String name;
 
-public class Soup {
-    public Soup() {
+    public Soup(String name) {
+        this.name = name;
     }
 
-    /**
-     *
-     */
-    private String SOName;
-
-    /**
-     *
-     */
-    public void Soup() {
-        // TODO implement here
+    public String getAppetizerName() {
+        return name;
     }
 
-    /**
-     * @return
-     */
-    public String getSoupName() {
-        // TODO implement here
-        return "";
+    public void display() {
+        System.out.println("Soup: " + name);
     }
 }
