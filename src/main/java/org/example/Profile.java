@@ -1,6 +1,5 @@
 package org.example;
 
-import jdk.incubator.vector.VectorOperators;
 
 public class Profile {
     /**
@@ -32,7 +31,6 @@ public class Profile {
     /**
      *
      */
-    private VectorOperators.Binary profilePhoto;
 
     /**
      * @param customerID

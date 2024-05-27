@@ -1,6 +1,6 @@
-package org.example;
+package org.example.StrategyPattern;
 
-public class PayPalStrategy implements PaymentStrategy{
+public class PayPalStrategy implements PaymentStrategy {
     private String email;
     private String password;
 

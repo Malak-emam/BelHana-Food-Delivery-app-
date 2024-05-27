@@ -1,4 +1,4 @@
-package org.example;
+package org.example.StrategyPattern;
 
 public interface PaymentStrategy {
     void pay(double amount);

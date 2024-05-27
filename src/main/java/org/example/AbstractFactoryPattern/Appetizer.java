@@ -1,4 +1,4 @@
-package org.example;
+package org.example.AbstractFactoryPattern;
 
 public class Appetizer {
     public Appetizer() {

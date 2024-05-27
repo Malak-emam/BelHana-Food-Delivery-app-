@@ -1,4 +1,4 @@
-package org.example;
+package org.example.AbstractFactoryPattern;
 
 public class FactoryCreator {
 
@@ -12,7 +12,7 @@ public class FactoryCreator {
      * //@param String Choice
      * @return
      */
-    public AbstractFactory getFactory( String Choice) {
+    public AbstractFactory getFactory(String Choice) {
         // TODO implement here
         return null;
     }
