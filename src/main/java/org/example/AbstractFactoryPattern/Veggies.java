@@ -1,3 +1,4 @@
+package org.example.AbstractFactoryPattern;
 
 public class Veggies implements MainCourse {
     private String name;
@@ -11,6 +12,6 @@ public class Veggies implements MainCourse {
     }
 
     public void display() {
-        System.out.println("Veggies: " + name);
+        System.out.println("org.example.AbstractFactoryPattern.Veggies: " + name);
     }
 }

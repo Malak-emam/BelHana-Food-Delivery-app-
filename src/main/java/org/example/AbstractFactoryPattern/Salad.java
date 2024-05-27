@@ -1,3 +1,5 @@
+package org.example.AbstractFactoryPattern;
+
 public class Salad implements Appetizer {
     private String name;
 
@@ -10,6 +12,6 @@ public class Salad implements Appetizer {
     }
 
     public void display() {
-        System.out.println("Salad: " + name);
+        System.out.println("org.example.AbstractFactoryPattern.Salad: " + name);
     }
 }

@@ -7,7 +7,7 @@ public class BridgeMain {
     public static void main(String[] args) {
         // Create a list of meals
         List<Meal> meals = new ArrayList<>();
-        meals.add(new Meal(1, "Vegan Salad", "Salad", "Vegan"));
+        meals.add(new Meal(1, "Vegan org.example.AbstractFactoryPattern.Salad", "org.example.AbstractFactoryPattern.Salad", "Vegan"));
         meals.add(new Meal(2, "Vegetarian Pizza", "Pizza", "Vegetarian"));
         meals.add(new Meal(3, "Chicken Burger", "Burger", "Non-Vegetarian"));
         meals.add(new Meal(4, "Vegan Burger", "Burger", "Vegan"));

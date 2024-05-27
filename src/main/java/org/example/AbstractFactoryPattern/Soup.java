@@ -1,4 +1,6 @@
-// Soup class implementing Appetizer
+package org.example.AbstractFactoryPattern;
+
+// org.example.AbstractFactoryPattern.Soup class implementing Appetizer
 public class Soup implements Appetizer {
     private String name;
 
@@ -11,6 +13,6 @@ public class Soup implements Appetizer {
     }
 
     public void display() {
-        System.out.println("Soup: " + name);
+        System.out.println("org.example.AbstractFactoryPattern.Soup: " + name);
     }
 }

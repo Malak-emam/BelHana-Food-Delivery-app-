@@ -10,7 +10,7 @@ public class FlyweightMain {
         menuManager.addMenuItem("Burger", "A delicious beef burger", null, 5.99);
         menuManager.addMenuItem("Burger", "A delicious beef burger", null, 5.99);
         menuManager.addMenuItem("Pizza", "A cheesy pizza", null, 7.99);
-        menuManager.addMenuItem("Salad", "A fresh green salad", null, 4.99);
+        menuManager.addMenuItem("org.example.AbstractFactoryPattern.Salad", "A fresh green salad", null, 4.99);
 
         // Get the list of menu items
         List<MenuItem> menuItems = menuManager.getMenuItems();

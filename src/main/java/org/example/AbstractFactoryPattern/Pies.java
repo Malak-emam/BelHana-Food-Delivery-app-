@@ -1,6 +1,6 @@
 package org.example.AbstractFactoryPattern;
 
-public class Pies extends Dessert {
+public abstract class Pies implements Dessert {
 
     public Pies() {
     }
