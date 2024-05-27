@@ -1,6 +1,6 @@
-package org.example;
+package org.example.AbstractFactoryPattern;
 
-public class Pies extends Dessert{
+public class Pies extends Dessert {
 
     public Pies() {
     }

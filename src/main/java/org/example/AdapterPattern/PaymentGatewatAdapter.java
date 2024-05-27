@@ -1,4 +1,4 @@
-package org.example;
+package org.example.AdapterPattern;
 
 import java.util.Map;
 

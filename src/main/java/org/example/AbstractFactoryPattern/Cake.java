@@ -1,25 +1,25 @@
-package org.example;
+package org.example.AbstractFactoryPattern;
 
-public class Cookies {
-    public Cookies() {
+public class Cake {
+    public Cake() {
     }
 
     /**
      *
      */
-    private String COName;
+    private String CAName;
 
     /**
      *
      */
-    public void Cookies() {
+    public void Cake() {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public String getCookieName() {
+    public String getCakeName() {
         // TODO implement here
         return "";
     }

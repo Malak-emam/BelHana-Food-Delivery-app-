@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SingletonPattern;
 
 public class DatabaseAdmin {
     public DatabaseAdmin() {

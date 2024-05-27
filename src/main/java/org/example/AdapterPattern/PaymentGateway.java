@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Map;
+package org.example.AdapterPattern;
 
 public class PaymentGateway {public PaymentGateway() {
 }

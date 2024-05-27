@@ -1,7 +1,8 @@
-package org.example;
+package org.example.StrategyPattern;
+
 import java.time.LocalDate;
 
-public class CreditCardStrategy implements PaymentStrategy{
+public class CreditCardStrategy implements PaymentStrategy {
     private String cardHolderName;
     private String cardNumber;
     private int cvv;

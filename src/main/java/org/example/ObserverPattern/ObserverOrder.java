@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ObserverPattern;
 
 public class ObserverOrder {
     public ObserverOrder() {

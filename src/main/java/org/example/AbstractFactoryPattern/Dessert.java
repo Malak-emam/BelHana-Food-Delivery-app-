@@ -1,17 +1,16 @@
-package org.example;
+package org.example.AbstractFactoryPattern;
 
-public class Maincourse {
-
+public class Dessert {
     /**
      * Default constructor
      */
-    public Maincourse() {
+    public Dessert() {
     }
 
     /**
      * @return
      */
-    public String getMaincourseName() {
+    public String getDessertName() {
         // TODO implement here
         return "";
     }
