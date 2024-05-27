@@ -1,26 +1,18 @@
 package org.example.AbstractFactoryPattern;
 
-public class Cookies {
-    public Cookies() {
+
+public class Cookies implements Dessert {
+    private String name;
+
+    public Cookies(String name) {
+        this.name = name;
     }
 
-    /**
-     *
-     */
-    private String COName;
-
-    /**
-     *
-     */
-    public void Cookies() {
-        // TODO implement here
+    public String getDessertName() {
+        return name;
     }
 
-    /**
-     * @return
-     */
-    public String getCookieName() {
-        // TODO implement here
-        return "";
+    public void display() {
+        System.out.println("Cookies: " + name);
     }
 }

@@ -1,26 +1,18 @@
 package org.example.AbstractFactoryPattern;
 
-public class Cake {
-    public Cake() {
+// Cake class implementing Dessert
+public class Cake implements Dessert {
+    private String CAname;
+
+    public Cake(String name) {
+        this.CAname = name;
     }
 
-    /**
-     *
-     */
-    private String CAName;
-
-    /**
-     *
-     */
-    public void Cake() {
-        // TODO implement here
+    public String getDessertName() {
+        return CAname;
     }
 
-    /**
-     * @return
-     */
-    public String getCakeName() {
-        // TODO implement here
-        return "";
+    public void display() {
+        System.out.println("Cake: " + CAname);
     }
 }
