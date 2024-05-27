@@ -1,14 +1,16 @@
 package org.example.AbstractFactoryPattern;
 
-public class AppetizersFactory {
-    public AppetizersFactory() {
+public class AppetizersFactory implements AbstractMenuFactory {
+    public Dessert createDessert(String name) {
+        return null; // Appetizers don't have desserts
     }
 
-    /**
-     * @return
-     */
-    public Appetizer getAppetizer() {
-        // TODO implement here
-        return null;
+    public Appetizer createAppetizer(String name) {
+        return new Salad(name);
+    }
+
+    public MainCourse createMainCourse(String name) {
+        return null; // Appetizers don't have main courses
     }
 }
+
