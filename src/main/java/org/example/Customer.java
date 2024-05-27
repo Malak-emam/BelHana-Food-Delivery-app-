@@ -13,6 +13,15 @@ public class Customer {
      */
     private int customerID;
 
+
+
+    /**
+     * @param OrderMediator mediator
+     */
+
+    private  OrderMediator mediator;
+
+
     /**
      *
      */
@@ -34,11 +43,17 @@ public class Customer {
     private String phone;
 
     /**
-     * @param name
+     * @param mediator
+     */
+    public  void setMediator( OrderMediator mediator) {
+    // TODO implement here
+    }
+    /*
      * @param phone
      * @param email
      * @param password
      */
+
     public void Register(String name, String phone, String email, String password) {
         // TODO implement here
     }
@@ -145,10 +160,13 @@ public class Customer {
     }
 
     /**
-     * @param customerID
-     * @param orderID
+     * @param order
+
      * @return
      */
+    public  void placeOrder( Order order) {
+        // TODO implement here
+    }
     public boolean UpdateOrder(int customerID, int orderID) {
         // TODO implement here
         return false;
