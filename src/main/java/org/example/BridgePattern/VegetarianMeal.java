@@ -1,4 +1,4 @@
-package org.example;
+package org.example.BridgePattern;
 
 import java.util.List;
 

@@ -1,21 +1,25 @@
-package org.example;
+package org.example.BridgePattern;
 
 import java.util.List;
 
-public class Meal {
-    public Meal() {
+public class VeganMeal {
+    public VeganMeal() {
     }
 
     /**
      *
      */
-    public SearchMealAPI searchMealAPI;
+    private int mealID;
 
     /**
-     * @param SearchMealAPI
+     *
+     */
+    private String mealName;
+
+    /**
      * @return
      */
-    public void setMealSearch(SearchMealAPI SearchMealAPI) {
+    public void Meal() {
         // TODO implement here
     }
 
