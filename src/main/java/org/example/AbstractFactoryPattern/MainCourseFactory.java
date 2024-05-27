@@ -8,7 +8,7 @@ public class MainCourseFactory {
     /**
      * @return
      */
-    public Maincourse getMaincourse() {
+    public MainCourse getMaincourse() {
         // TODO implement here
         return null;
     }
