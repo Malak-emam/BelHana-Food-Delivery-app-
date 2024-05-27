@@ -1,23 +1,14 @@
 package org.example.ObserverPattern;
 
-public class ObserverOrder {
-    public ObserverOrder() {
+public class ObserverOrder implements Observer {
+    private int orderId;
+
+    public ObserverOrder(int orderId) {
+        this.orderId = orderId;
     }
 
-    /**
-     *
-     */
-    private int order_id;
-
-    /**
-     *
-     */
-    private String status;
-
-    /**
-     * @param new_status
-     */
-    public void change_status(String new_status) {
-        // TODO implement here
+    @Override
+    public void update(String status) {
+        System.out.println("Order " + orderId + " status updated to: " + status);
     }
 }

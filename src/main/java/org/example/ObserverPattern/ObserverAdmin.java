@@ -1,13 +1,14 @@
 package org.example.ObserverPattern;
 
-public class ObserverAdmin {
-    public ObserverAdmin() {
+public class ObserverAdmin implements Observer {
+    private String adminName;
+
+    public ObserverAdmin(String adminName) {
+        this.adminName = adminName;
     }
 
-    /**
-     * @param status
-     */
+    @Override
     public void update(String status) {
-        // TODO implement here
+        System.out.println("Admin " + adminName + " received status update: " + status);
     }
 }
