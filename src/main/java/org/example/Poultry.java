@@ -1,6 +1,8 @@
 package org.example;
 
-public class Poultry extends Maincourse {
+import org.example.AbstractFactoryPattern.MainCourse;
+
+public abstract class Poultry implements MainCourse {
 
     public Poultry() {
     }

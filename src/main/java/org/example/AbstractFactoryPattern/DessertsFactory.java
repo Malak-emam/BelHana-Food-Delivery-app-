@@ -1,17 +1,15 @@
 package org.example.AbstractFactoryPattern;
 
-public class DessertsFactory {
-    /**
-     * Default constructor
-     */
-    public DessertsFactory() {
+public class DessertsFactory implements AbstractMenuFactory {
+    public Dessert createDessert(String name) {
+        return new Cake(name);
     }
 
-    /**
-     * @return
-     */
-    public Dessert getDessert() {
-        // TODO implement here
-        return null;
+    public Appetizer createAppetizer(String name) {
+        return null; // DessertsFactory doesn't create appetizers
+    }
+
+    public MainCourse createMainCourse(String name) {
+        return null; // DessertsFactory doesn't create main courses
     }
 }

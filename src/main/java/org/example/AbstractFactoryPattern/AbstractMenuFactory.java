@@ -5,3 +5,4 @@ public interface AbstractMenuFactory {
         Appetizer createAppetizer(String name);
         MainCourse createMainCourse(String name);
 }
+

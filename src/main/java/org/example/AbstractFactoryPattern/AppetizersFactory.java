@@ -2,7 +2,7 @@ package org.example.AbstractFactoryPattern;
 
 public class AppetizersFactory implements AbstractMenuFactory {
     public Dessert createDessert(String name) {
-        return null; // Appetizers don't have desserts
+        return null; // AppetizersFactory doesn't create desserts
     }
 
     public Appetizer createAppetizer(String name) {
@@ -10,7 +10,6 @@ public class AppetizersFactory implements AbstractMenuFactory {
     }
 
     public MainCourse createMainCourse(String name) {
-        return null; // Appetizers don't have main courses
+        return null; // AppetizersFactory doesn't create main courses
     }
 }
-

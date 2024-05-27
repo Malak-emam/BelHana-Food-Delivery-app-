@@ -12,6 +12,6 @@ public class Salad implements Appetizer {
     }
 
     public void display() {
-        System.out.println("org.example.AbstractFactoryPattern.Salad: " + name);
+        System.out.println("Appetizer: " + name);
     }
 }

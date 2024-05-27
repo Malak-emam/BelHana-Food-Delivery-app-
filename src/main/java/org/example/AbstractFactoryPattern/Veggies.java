@@ -12,6 +12,6 @@ public class Veggies implements MainCourse {
     }
 
     public void display() {
-        System.out.println("org.example.AbstractFactoryPattern.Veggies: " + name);
+        System.out.println("Main Course: " + name);
     }
 }
