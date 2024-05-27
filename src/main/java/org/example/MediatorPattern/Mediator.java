@@ -1,4 +1,6 @@
-package org.example;
+package org.example.MediatorPattern;
+
+import org.example.Order;
 
 public class Mediator {
     public Mediator() {
@@ -8,7 +10,7 @@ public class Mediator {
      * @param customer customer
      * @param order order
      */
-    public  void placeOrder( Customer customer,  Order order) {
+    public  void placeOrder(Customer customer, Order order) {
         // TODO implement here
     }
 

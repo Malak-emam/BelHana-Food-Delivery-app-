@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.MediatorPattern.Customer;
+
 import java.util.List;
 
 public class Admin {public Admin() {
