@@ -1,4 +1,4 @@
-package org.example.Flyweight;
+package org.example.FlyweightPattern;
 
 public class MenuItem {
     private double price;

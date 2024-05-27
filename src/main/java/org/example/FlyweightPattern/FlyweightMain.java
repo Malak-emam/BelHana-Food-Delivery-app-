@@ -1,6 +1,5 @@
-package org.example.Flyweight;
+package org.example.FlyweightPattern;
 
-import java.awt.*;
 import java.util.List;
 
 public class FlyweightMain {
