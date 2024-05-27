@@ -1,48 +1,32 @@
 package org.example.ObserverPattern;
 
-import org.example.Order;
-
+import java.util.ArrayList;
 import java.util.List;
 
 public class OrderStatusManager {
-    public OrderStatusManager() {
-    }
-
-    /**
-     *
-     */
     private String status;
-
-    /**
-     *
-     */
     private List<Observer> observers;
 
-    /**
-     * @param status
-     */
+    public OrderStatusManager() {
+        this.observers = new ArrayList<>();
+    }
+
     public void setStatus(String status) {
-        // TODO implement here
+        this.status = status;
+        notifyObservers();
     }
 
-    /**
-     * @param observer
-     */
-    public void addObserver(Order observer) {
-        // TODO implement here
+    public void addObserver(Observer observer) {
+        observers.add(observer);
     }
 
-    /**
-     * @param observer
-     */
-    public void removerObserver(Order observer) {
-        // TODO implement here
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
     }
 
-    /**
-     *
-     */
-    public void notifyObservers() {
-        // TODO implement here
+    private void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.update(status);
+        }
     }
 }
