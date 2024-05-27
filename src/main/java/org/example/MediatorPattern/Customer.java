@@ -1,4 +1,6 @@
-package org.example;
+package org.example.MediatorPattern;
+
+import org.example.*;
 
 import java.util.Date;
 import java.util.List;
@@ -19,7 +21,7 @@ public class Customer {
      * @param OrderMediator mediator
      */
 
-    private  OrderMediator mediator;
+    private OrderMediator mediator;
 
 
     /**
