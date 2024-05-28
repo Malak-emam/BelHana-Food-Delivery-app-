@@ -1,6 +1,9 @@
 package org.example;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7f25af0be9db236efc574f8d66f631d4ec4cbcc4
 
 public class Profile {
     /**
@@ -32,6 +35,10 @@ public class Profile {
     /**
      *
      */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7f25af0be9db236efc574f8d66f631d4ec4cbcc4
     /**
      * @param customerID
      */
