@@ -1,10 +1,5 @@
 package org.example;
 
-<<<<<<< HEAD
-
-=======
-//import jdk.incubator.vector.VectorOperators;
->>>>>>> cd9205b9cd1ea85d5502fc52085d8068065cae25
 
 public class Profile {
     /**
@@ -36,11 +31,6 @@ public class Profile {
     /**
      *
      */
-<<<<<<< HEAD
-
-=======
-    //private VectorOperators.Binary profilePhoto;
->>>>>>> cd9205b9cd1ea85d5502fc52085d8068065cae25
 
     /**
      * @param customerID
