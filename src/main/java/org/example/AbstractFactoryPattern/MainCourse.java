@@ -1,6 +1,6 @@
 package org.example.AbstractFactoryPattern;
 
-public interface Dessert {
-    String getDessertName();
+public interface MainCourse {
+    String getMainCourseName();
     void display();
 }

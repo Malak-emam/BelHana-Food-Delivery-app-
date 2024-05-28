@@ -1,26 +1,29 @@
 package org.example.SingletonPattern;
 
 public class DatabaseAdmin {
-    public DatabaseAdmin() {
+    // Static variable to hold the single instance of DatabaseAdmin
+    private static DatabaseAdmin instance;
+
+    // Private constructor to prevent instantiation
+    private DatabaseAdmin() {
+        // TODO: Any initialization code here
     }
 
-    /**
-     *
-     */
-    private DatabaseAdmin instance;
-
-    /**
-     *
-     */
-    private void DatabaseAdmin() {
-        // TODO implement here
+    // Public method to provide access to the instance
+    public static DatabaseAdmin getInstance() {
+        if (instance == null) {
+            synchronized (DatabaseAdmin.class) {
+                if (instance == null) { // Double-check locking
+                    instance = new DatabaseAdmin();
+                }
+            }
+        }
+        return instance;
     }
 
-    /**
-     * @return
-     */
-    public DatabaseAdmin GetInstance() {
-        // TODO implement here
-        return null;
+    // Example method for the singleton instance
+    public void connect() {
+        System.out.println("Connecting to the database...");
+        // TODO: Database connection logic
     }
 }

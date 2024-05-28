@@ -19,10 +19,6 @@ public class Order {
     public Order() {
     }
 
-    public int getOrderID(int customerID) {
-        // TODO implement here
-        return 0;
-    }
 
     public Item getItems(int orderID) {
         // TODO implement here
@@ -111,5 +107,16 @@ public class Order {
     public String getPaymentMethod(int customerID, int orderID) {
         // TODO implement here
         return null;
+    }
+
+    public int getOrderID() {
+        return orderID;
+    }
+
+    public void setOrderID(int orderID) {
+        this.orderID = orderID;
+    }
+
+    public void setOrderDetails(String s) {
     }
 }

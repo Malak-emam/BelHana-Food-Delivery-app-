@@ -2,21 +2,22 @@ package org.example.AdapterPattern;
 
 import java.util.Map;
 
-public class PaymentProcessor {public PaymentProcessor() {
-}
+public class PaymentProcessor {
+    private PaymentGateway paymentGateway;
 
-    /**
-
-
-     */
-    public void processPayment(Double d, Map map) {
-        // TODO implement here
+    public PaymentProcessor(PaymentGateway paymentGateway) {
+        this.paymentGateway = paymentGateway;
     }
 
-    /**
-     * @param string
-     */
-    public void cancelPayment(String string) {
-        // TODO implement here
+    public void processPayment(double amount, Map<String, String> params) {
+        paymentGateway.initializePayment(amount);
+    }
+
+    public void confirmPayment(String paymentId) {
+        paymentGateway.finalizePayment(paymentId);
+    }
+
+    public void cancelPayment(String paymentId) {
+        paymentGateway.cancelPayment(paymentId);
     }
 }

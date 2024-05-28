@@ -1,17 +1,17 @@
 package org.example.AbstractFactoryPattern;
 
-public class Cake implements Dessert {
+public class Salad implements Appetizer {
     private String name;
 
-    public Cake(String name) {
+    public Salad(String name) {
         this.name = name;
     }
 
-    public String getDessertName() {
+    public String getAppetizerName() {
         return name;
     }
 
     public void display() {
-        System.out.println("Dessert: " + name);
+        System.out.println("Appetizer: " + name);
     }
 }
