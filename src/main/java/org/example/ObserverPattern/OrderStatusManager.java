@@ -24,6 +24,10 @@ public class OrderStatusManager {
         observers.remove(observer);
     }
 
+    public List<Observer> getObservers() {
+        return observers;
+    }
+
     private void notifyObservers() {
         for (Observer observer : observers) {
             observer.update(status);
