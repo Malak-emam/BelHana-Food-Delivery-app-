@@ -1,8 +1,8 @@
 package org.example.AbstractFactoryPattern;
 
-public interface AbstractMenuFactory {
-        Dessert createDessert(String name);
-        Appetizer createAppetizer(String name);
-        MainCourse createMainCourse(String name);
+public abstract class AbstractMenuFactory {
+        public abstract Dessert createDessert(String name);
+        public abstract Appetizer createAppetizer(String name);
+        public abstract MainCourse createMainCourse(String name);
 }
 

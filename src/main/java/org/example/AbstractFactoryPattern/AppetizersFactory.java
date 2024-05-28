@@ -1,6 +1,6 @@
 package org.example.AbstractFactoryPattern;
 
-public class AppetizersFactory implements AbstractMenuFactory {
+public class AppetizersFactory extends AbstractMenuFactory {
     public Dessert createDessert(String name) {
         return null; // AppetizersFactory doesn't create desserts
     }
